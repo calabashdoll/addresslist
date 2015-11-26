@@ -1,0 +1,164 @@
+body {
+    font: 14px tahoma, verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f9f9f9;
+}
+table {
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+hr {
+    clear: both;
+    margin: 20px 0;
+}
+fieldset, legend {
+    padding: 3px;
+    border: 1px solid #aaa;
+}
+legend {
+    font-weight: bold;
+    background-color: #ddd;
+    margin-bottom: 6px;
+}
+fieldset {
+    margin-bottom: 10px;
+}
+form div.row {
+    clear: left;
+    display: block;
+    margin: 5px 0 0;
+    padding: 1px 3px;
+}
+label {
+    display: block;
+    float: left;
+	width: 150px;
+	font-weight: bold;
+	text-align: right;
+	margin: 0 0 5px;
+	padding: 3px 5px;
+}
+input {
+	border: 1px solid #ccc;
+	padding: 1px 3px;
+	width: 200px;
+	float: left;
+}
+select {
+    float: left;
+    margin-right: 2px;
+}
+input:focus, select:focus {
+	background-color: #f9f9f9;
+}
+input.submitbutton {
+	border: 2px solid #333;
+	background-color: #369;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	width: auto;
+}
+input.radio {
+    width: auto;
+    border: none;
+    float: none;
+}
+.radiooption {
+    margin-right: 10px;
+}
+.error {
+	color: #f00;
+}
+#header {
+    border-bottom: 1px solid #ccc;
+}
+#footer {
+    text-align: center;
+    clear: both;
+}
+#header, #footer {
+    background-color: #333;
+    padding: 5px;
+}
+#header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#header li {
+    display: inline;
+    margin-right: 10px; 
+}
+#header a, #header a:visited, #footer a, #footer a:visited {
+    color: #eee;
+}
+#body {
+    width: auto;
+    margin: 0px auto;
+    border: solid #ccc;
+    border-width: 0 1px;
+    padding: 5px;
+    background-color: #fff;
+    min-height: 890px;
+}
+.sidebar {
+    padding: 5px;
+    float: right;
+}
+a.featured {
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    background-color: #6f6;
+    margin: 5px;
+}
+a.featured:hover {
+    background-color: #292;
+    color: #fff;
+}
+.sidebar a.removal {
+    background-color: #f66;
+}
+.contactgrouping {
+    border: 1px solid #ccc;
+    background-color: #f9f9ff;
+    margin-bottom: 10px;
+}
+.contactgrouping a, .contactgrouping a:visited {
+    display: block;
+    font-size: 10px;
+    color: #00f;
+}
+.contactgrouping a.addcontactgrouping, .contactgrouping a.deletecontactgrouping {
+    padding-top: 20px;
+    clear: both;
+}
+.methodboxvaluebox {
+    display: none;
+}
+#contactgroupingcontainer {
+    display: none;
+}
+.hasvalue {
+    display: block;
+}
+#browsecontacts a {
+    padding: 5px;
+    border: 1px solid #f4f4f4;
+    display: block;
+    font-weight: bold;
+    color: #000;
+}
+#browsecontacts a:hover {
+    border-color: #69f;
+    background-color: #def;
+}
+#loginbox {
+    margin: 0 auto;
+    width: 500px;
+}
